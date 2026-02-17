@@ -1,0 +1,63 @@
+File: a.csv  
+This dataset contains historical data for the cryptocurrency Aave (AAVE) from October 5, 2020, to July 6, 2021. It includes key statistics such as a price range from $25.97 to $666.86, an average daily volume of $502,342,072, and an average market cap of $3,168,638,541. The file consists of 275 rows of data.
+
+File: b.csv contains data for Binance Coin (BNB) from July 26, 2017, to July 6, 2021. The dataset includes 1,442 rows with a price range from $0.10 to $690.93, an average daily volume of $626,980,416, and an average market cap of $7,835,574,758.
+
+File: c.csv  
+This dataset contains historical data for Bitcoin (BTC) from April 29, 2013, to July 6, 2021, with 2,991 rows of information. Key statistics include a price range from $65.53 to $64,863.10, an average daily volume of $10,906,334,005, and an average market cap of $120,876,059,113.
+
+File: d.csv  
+This dataset contains historical data for Cardano (ADA) from October 2, 2017, to July 6, 2021. It includes 1,374 rows detailing key statistics such as a price range from $0.02 to $2.46, an average daily volume of $893,418,323, and an average market cap of $7,603,454,208.
+
+File: e.csv  
+This dataset contains historical data for Chainlink (LINK) from September 21, 2017, to July 6, 2021. It includes key statistics such as a price range from $0.13 to $52.88, an average daily trading volume of $692,360,796, and an average market cap of $2,494,641,990. The file consists of 1385 rows of data.
+
+File: f.csv contains data for the cryptocurrency Cosmos (ATOM) from March 15, 2019, to July 6, 2021. The dataset includes 845 rows with a price range from $1.13 to $32.14, an average daily volume of $296,341,274, and an average market cap of $1,332,950,017.
+
+File: g.csv  
+This dataset contains historical data for Crypto.com Coin (CRO) from December 15, 2018, to July 6, 2021. It includes key statistics such as a price range from $0.01 to $0.27, an average daily volume of $50,036,779, and an average market cap of $1,485,325,809. The file consists of 935 rows of data.
+
+File: h.csv  
+This dataset contains historical data for Dogecoin (DOGE) from December 16, 2013, to July 6, 2021. It includes key statistics such as a price range from $0.00 to $0.74, an average daily volume of $432,632,097, and an average market cap of $1,760,532,915 across 2760 rows.
+
+File: i.csv  
+This dataset contains historical data for the cryptocurrency EOS (symbol: EOS) from July 2, 2017, to July 6, 2021. It includes 1,466 rows with price data ranging from $0.48 to $22.89, an average daily trading volume of $1,888,406,404, and an average market capitalization of $3,941,338,166.
+
+File: j.csv  
+This dataset contains historical data for Ethereum (ETH) from August 8, 2015, to July 6, 2021, with 2160 rows. It includes key statistics such as a price range from $0.42 to $4,362.35, an average daily volume of $7,057,057,897, and an average market cap of $41,720,840,040.
+
+File: k.csv  
+This dataset contains historical data for the cryptocurrency IOTA (MIOTA) from June 14, 2017, to July 6, 2021. It includes key statistics such as a price range from $0.08 to $5.69, an average daily volume of $56,725,874, and an average market cap of $2,027,295,249 across 1484 rows.
+
+File: l.csv  
+This dataset contains historical data for Litecoin (LTC) from April 29, 2013, to July 6, 2021, with 2,991 rows. It includes key statistics such as a price range from $1.11 to $412.96, an average daily volume of $1,284,851,457, and an average market cap of $2,934,139,197.
+
+File: m.csv contains historical data for Monero (XMR) from May 22, 2014, to July 6, 2021. The dataset includes 2,602 rows with a price range from $0.21 to $517.62, an average daily volume of $163,746,690, and an average market cap of $1,236,533,910.
+
+File: n.csv  
+This dataset contains historical data for the cryptocurrency NEM (XEM) from April 2, 2015, to July 6, 2021, with 2,288 rows. It includes key statistics such as a price range from $0.00 to $2.09, an average daily volume of $44,281,301, and an average market cap of $1,121,956,434.
+
+File: o.csv  
+This dataset contains historical data for Polkadot (DOT) from August 21, 2020, to July 6, 2021, with 320 rows of data. It includes key statistics such as a price range from $2.73 to $49.69, an average daily volume of $2,006,507,050, and an average market cap of $16,533,535,162.
+
+File: p.csv contains data for the cryptocurrency Solana (SOL) from April 11, 2020, to July 6, 2021. The dataset includes 452 rows with a price range from $0.51 to $58.30, an average daily volume of $195,675,061, and an average market cap of $2,588,163,939.
+
+File: q.csv  
+This dataset contains historical data for Stellar (XLM) from August 6, 2014, to July 6, 2021, with 2,527 rows. It includes key statistics such as a price range from $0.00 to $0.94, an average daily volume of $251,516,093, and an average market cap of $2,019,410,199.
+
+File: r.csv  
+This dataset contains historical data for Tether (USDT) from February 26, 2015, to July 6, 2021. It includes 2,318 rows with key statistics such as a price range from $0.57 to $1.21, an average daily volume of $19,384,839,323, and an average market cap of $6,128,740,977.
+
+File: s.csv  
+This dataset contains historical data for the cryptocurrency TRON (TRX) from September 14, 2017, to July 6, 2021. It includes 1,392 rows with key statistics such as a price range from $0.00 to $0.30, an average daily volume of $945,943,524, and an average market cap of $2,224,104,388.
+
+File: t.csv contains data for the cryptocurrency Uniswap (UNI) from September 18, 2020, to July 6, 2021. The dataset includes 292 rows with a price range from $1.76 to $44.97, an average daily volume of $1,061,550,731, and an average market cap of $7,950,668,480.
+
+File: u.csv  
+This dataset contains historical data for USD Coin (USDC) from October 9, 2018, to July 6, 2021. It includes 1002 rows of key statistics such as a price range from $0.93 to $1.11, an average daily volume of $651,347,221, and an average market cap of $3,029,696,840.
+
+File: v.csv  
+This CSV file contains data for Wrapped Bitcoin (WBTC) from January 31, 2019, to July 6, 2021. It includes 888 rows of key statistics, such as a price range from $3,330.12 to $64,796.44, an average daily volume of $55,479,316, and an average market cap of $1,666,316,263.
+
+File: w.csv  
+This dataset contains historical data for the cryptocurrency XRP (XRP) from August 5, 2013, to July 6, 2021. It includes 2,893 rows of key statistics such as a price range from $0.00 to $3.84, an average daily volume of $1,260,299,343, and an average market cap of $9,678,506,600.

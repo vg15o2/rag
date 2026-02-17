@@ -10,10 +10,10 @@ def main():
         print("Error: Please set your OPENAI_API_KEY in the .env file.")
         return
 
-    print("Initializing Crypto Data Analyst...")
-    from agent import create_agent
+    print("Initializing Crypto Data Analyst (RAG mode)...")
+    from rag_agent import create_rag_agent
 
-    agent = create_agent()
+    agent, reset_repl = create_rag_agent()
 
     print("\n=== Crypto Data Analyst ===")
     print("Ask me anything about cryptocurrency price data (2013-2021).")
@@ -33,13 +33,23 @@ def main():
             break
 
         try:
-            result = agent.invoke(
+            reset_repl()
+            final_content = ""
+            for step in agent.stream(
                 {"messages": [{"role": "user", "content": user_input}]},
-                {"recursion_limit": 8},
-            )
-            # Extract the final AI message
-            ai_message = result["messages"][-1]
-            print(f"\nAnalyst: {ai_message.content}\n")
+                {"recursion_limit": 25},
+                stream_mode="updates",
+            ):
+                for node_output in step.values():
+                    for msg in node_output.get("messages", []):
+                        if hasattr(msg, "tool_calls") and msg.tool_calls:
+                            names = [tc["name"] for tc in msg.tool_calls]
+                            print(f"  thinking... ({', '.join(names)})")
+                        elif msg.type == "ai" and msg.content and not getattr(msg, "tool_calls", None):
+                            final_content = msg.content
+
+            print(f"\n{final_content or 'Could not generate an answer.'}\n")
+
         except Exception as e:
             print(f"\nError: {e}\n")
 
