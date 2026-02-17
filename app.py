@@ -34,7 +34,8 @@ def main():
 
         try:
             result = agent.invoke(
-                {"messages": [{"role": "user", "content": user_input}]}
+                {"messages": [{"role": "user", "content": user_input}]},
+                {"recursion_limit": 8},
             )
             # Extract the final AI message
             ai_message = result["messages"][-1]
