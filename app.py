@@ -15,7 +15,7 @@ def main():
 
     agent = create_agent()
 
-    print("\n=== Crypto Data Analyst (donna)===")
+    print("\n=== Crypto Data Analyst ===")
     print("Ask me anything about cryptocurrency price data (2013-2021).")
     print("Type 'quit' or 'exit' to stop.\n")
 
@@ -23,7 +23,7 @@ def main():
         try:
             user_input = input("You: ").strip()
         except (EOFError, KeyboardInterrupt):
-            print("\nokay, bye!")
+            print("goodbye!")
             break
 
         if not user_input:
